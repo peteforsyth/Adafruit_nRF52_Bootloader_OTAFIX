@@ -1,0 +1,3 @@
+This bootloader software ONLY helps with the ability to perform updates over Bluetooth (BLE), making it more likely that a failed update will not result in a bricked device. This software does NOT add firmware for a specific LoRa implementation (like Meshcore or Mesttastic) to your device.
+
+To use the device with a system like Meshtastic or Meshcore, you will need to install that system's software after successfully installing the Adafruit OTAFIX bootloader. Doing so will not remove the Adafruit OTAFIX bootloader. Install the system you want to use by the normal means (via USB or BLE).
